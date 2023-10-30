@@ -88,7 +88,7 @@ for player_info in player_list:
                 print(match_value)
                 match_list.append(match_value)
 
-            # obtaining hyperlink to match-specific page
+            # obtaining hyperlink + gameID to match-specific page
             for html_elements in match_data:
                 # find all elements with a href element with hyperlink to games (regex-driven)
                 all_link_info = str(html_elements.find_all("a", attrs={"href": re.compile(r"\.\.\/game.*")}))
@@ -97,10 +97,11 @@ for player_info in player_list:
                     temp2 = temp1.split('href=')[1].strip()  # gets second part of href
                     temp3 = temp2.replace("\"", "")  # formatting
                     relative_link_to_game_page = temp3.replace("..", "")  # formatting
+                    temp4 = temp3.split("stats/")[1].strip()
+                    game_ID = temp4.split("/page-game")[0].strip()
+                    match_list[-1].insert(0, game_ID)
                     if relative_link_to_game_page:
-                        print(f"{relative_link_to_game_page}")
-                        absolute_link_to_game_page = f"=HYPERLINK({MAIN_WEBSITE}{relative_link_to_game_page}"
-                        print(absolute_link_to_game_page)
+                        absolute_link_to_game_page = f"{MAIN_WEBSITE}{relative_link_to_game_page}"
                         match_list[-1].append(absolute_link_to_game_page)  # add full link to the last match_list
 
         # DEBUG: print match-list data to console
@@ -112,7 +113,7 @@ for player_info in player_list:
             writer = csv.writer(file)
 
             # writer headers to csv file
-            headers = ["champName", "gameOutcome", "KDA", "gameTime", "gameDate", "matchup", "split", "gameLink"]
+            headers = ["gameID", "champName", "gameOutcome", "KDA", "gameTime", "gameDate", "matchup", "split", "gameLink"]
             writer.writerow(headers)
 
             # write match-data columns to csv file
