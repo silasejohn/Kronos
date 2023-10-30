@@ -2,3 +2,4 @@
 .idea/*
 output.txt
 credentials.*
+token.*
