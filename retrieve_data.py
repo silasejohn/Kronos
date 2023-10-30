@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import csv
 import os
+import re
 import urllib
 
 from bs4 import BeautifulSoup
@@ -16,7 +17,8 @@ TOURNAMENT = "tournament-Worlds%20Main%20Event%202023"
 # 'season-S13', 'season-ALL'
 SEASON = "season-ALL"
 # 'True', 'False'
-DEBUG = False
+DEBUG = True
+MAIN_WEBSITE = "https://gol.gg"
 
 
 # gol.gg implements server-side protection on normal urllib (classified as a boT??)
@@ -75,15 +77,31 @@ for player_info in player_list:
         print("Name: " + name.text)
 
         # score player match-specific data + append to a list
-        table = soup.find("table", attrs={"class": "table_list"})
-        rows = table.find_all('tr')
-        for row in rows:
-            cols = row.find_all('td')
-            cols = [ele.text.strip() for ele in cols]
-            i = [ele for ele in cols if ele]
-            if i:
-                print(i)
-                match_list.append(i)
+        match_table = soup.find("table", attrs={"class": "table_list"})  # symbolizes match list table
+        list_of_matches = match_table.find_all('tr')  # symbolizes a table row - or a single match
+        for match in list_of_matches:  # iterate through all the match games
+            # obtaining metadata on state of match
+            match_data = match.find_all('td')  # find all the html match data in a match-row
+            match_text_ele = [html_elements.text.strip() for html_elements in match_data]  # strip title_text from html elements
+            match_value = [ele for ele in match_text_ele if ele]  # if not empty, then proceed
+            if match_value:
+                print(match_value)
+                match_list.append(match_value)
+
+            # obtaining hyperlink to match-specific page
+            for html_elements in match_data:
+                # find all elements with a href element with hyperlink to games (regex-driven)
+                all_link_info = str(html_elements.find_all("a", attrs={"href": re.compile(r"\.\.\/game.*")}))
+                if len(all_link_info) > 2:  # do not sense the '[]' options
+                    temp1 = all_link_info.split('title')[0].strip()  # gets the first part of href
+                    temp2 = temp1.split('href=')[1].strip()  # gets second part of href
+                    temp3 = temp2.replace("\"", "")  # formatting
+                    relative_link_to_game_page = temp3.replace("..", "")  # formatting
+                    if relative_link_to_game_page:
+                        print(f"{relative_link_to_game_page}")
+                        absolute_link_to_game_page = f"=HYPERLINK({MAIN_WEBSITE}{relative_link_to_game_page}"
+                        print(absolute_link_to_game_page)
+                        match_list[-1].append(absolute_link_to_game_page)  # add full link to the last match_list
 
         # DEBUG: print match-list data to console
         if DEBUG:
@@ -94,7 +112,7 @@ for player_info in player_list:
             writer = csv.writer(file)
 
             # writer headers to csv file
-            headers = ["champName", "gameOutcome", "KDA", "gameTime", "gameDate", "matchup", "split"]
+            headers = ["champName", "gameOutcome", "KDA", "gameTime", "gameDate", "matchup", "split", "gameLink"]
             writer.writerow(headers)
 
             # write match-data columns to csv file
