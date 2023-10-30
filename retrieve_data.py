@@ -36,10 +36,10 @@ opener = AppURLopener()
 for player_info in player_list:
 
     # reading, processing player info from file
-    player_id = player_info.split('|')[0].strip()
-    player_name = player_info.split('|')[1].strip()
-    team_id = player_info.split('|')[2].strip()
-    team_name = player_info.split('|')[3].strip()
+    team_id = player_info.split('|')[0].strip()
+    team_name = player_info.split('|')[1].strip()
+    player_name = player_info.split('|')[2].strip()
+    player_id = player_info.split('|')[3].strip()
 
     # printing processed data from input file
     searching_msg = "Searching database for {arg1} [{arg2}] player {arg3} [{arg4}]...".format(arg1=team_name,

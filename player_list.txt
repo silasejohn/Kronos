@@ -1,5 +1,40 @@
-1310|Brokenblade|1816|G2 Esports
-802|Caps|1816|G2 Esports
-3406|Yike|1816|G2 Esports
-698|Mikyx|1816|G2 Esports
-732|Hans sama|1816|G2 Esports
+1792|Gen.G eSports|Doran|1242
+1792|Gen.G eSports|Peanut|392
+1792|Gen.G eSports|Chovy|1629
+1792|Gen.G eSports|Peyz|4247
+1792|Gen.G eSports|Delight|3411
+1785|Bilibili Gaming|Bin|2606
+1785|Bilibili Gaming|XUN|3330
+1785|Bilibili Gaming|Yagao|1278
+1785|Bilibili Gaming|Elk|2376
+1785|Bilibili Gaming|ON|3353
+2096|NRG|Dhokla|1135
+2096|NRG|Contractz|733
+2096|NRG|Palafox|1282
+2096|NRG|FBI|1138
+2096|NRG|IgNar|463
+1774|Weibo Gaming|TheShy|1075
+1774|Weibo Gaming|WeiWei|2124
+1774|Weibo Gaming|xiaohu|347
+1774|Weibo Gaming|Light|1303
+1774|Weibo Gaming|Crisp|1169
+1776|JD Gaming|369|1922
+1776|JD Gaming|Kanavi|2360
+1776|JD Gaming|Knight|1270
+1776|JD Gaming|Ruler|685
+1776|JD Gaming|Missing|1647
+1770|KT Rolster|Kiin|1115
+1770|KT Rolster|Cuzz|983
+1770|KT Rolster|Bdd|650
+1770|KT Rolster|Aiming|1328
+1770|KT Rolster|Lehends|728
+1786|LNG Esports|Zika|4473
+1786|LNG Esports|Tarzan|1226
+1786|LNG Esports|Scout|610
+1786|LNG Esports|GALA|1931
+1786|LNG Esports|Hang|2670
+1791|T1|Zeus|3658
+1791|T1|Oner|3741
+1791|T1|Faker|48
+1791|T1|Gumayusi|3247
+1791|T1|Keria|1258
