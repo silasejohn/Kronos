@@ -99,7 +99,7 @@ for player_name in player_names:
 
         # generate Team Outcome Points
         if raw_player_df.iloc[match].GameOutcome == "Victory":
-            WIN_pts = static_win / 1000
+            WIN_pts = static_win
         elif raw_player_df.iloc[match].GameOutcome == "Defeat":
             WIN_pts = 0
         else:
@@ -107,15 +107,23 @@ for player_name in player_names:
             exit()
 
         # Sum KDA, CS, TDFB points into PTV
-        KDA_pts = (K_pts + D_pts + A_pts) / 1000
-        CS_pts = (static_vals[3] * int(raw_player_df.iloc[match].PlayerCS)) / 1000
-        TDFB_pts = (T_pts + Dr_pts + B_pts + FB_pts) / 1000
-        PTV_pts = KDA_pts + CS_pts + TDFB_pts + WIN_pts
+        KDA_pts = K_pts + D_pts + A_pts
+        KDA_pts_float = KDA_pts / 1000
 
-        df_KDA_pts.append(KDA_pts)
-        df_CS_pts.append(CS_pts)
-        df_TDFB_pts.append(TDFB_pts)
-        df_WIN_pts.append(WIN_pts)
+        CS_pts = static_vals[3] * int(raw_player_df.iloc[match].PlayerCS)
+        CS_pts_float = CS_pts / 1000
+
+        TDFB_pts = T_pts + Dr_pts + B_pts + FB_pts
+        TDFB_pts_float = TDFB_pts / 1000
+
+        WIN_pts_float = WIN_pts / 1000
+
+        PTV_pts = (KDA_pts + CS_pts + TDFB_pts + WIN_pts) / 1000
+
+        df_KDA_pts.append(KDA_pts_float)
+        df_CS_pts.append(CS_pts_float)
+        df_TDFB_pts.append(TDFB_pts_float)
+        df_WIN_pts.append(WIN_pts_float)
 
         df_PTV.append(PTV_pts)
     # end for loop
