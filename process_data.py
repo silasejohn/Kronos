@@ -148,7 +148,7 @@ for player_name in player_names:
 
         # writer HEADERS to each csv file
         headers = ["kills", "assists", "deaths", "cs", "turrets",
-                   "dragons", "barons", "first_blood", "CS_pts", "KDA_pts",
+                   "dragons", "barons", "first_blood", "K_pts", "D_pts", "A_pts", "CS_pts", "KDA_pts",
                    "TDFB_pts", "WIN_pts", "PTV"]
         writer.writerow(headers)
 

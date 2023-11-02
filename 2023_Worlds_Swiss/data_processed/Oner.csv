@@ -1,4 +1,4 @@
-kills,assists,deaths,cs,turrets,dragons,barons,first_blood,CS_pts,KDA_pts,TDFB_pts,WIN_pts,PTV
+kills,assists,deaths,cs,turrets,dragons,barons,first_blood,K_pts,D_pts,A_pts,CS_pts,KDA_pts,TDFB_pts,WIN_pts,PTV
 3,1,13,178,9,4,1,False,1.2000000000000002,-0.15,2.6,3.56,3.6500000000000004,2.2,2.0,11.41
 1,1,7,171,10,3,1,True,0.4,-0.15,1.4000000000000001,3.42,1.6500000000000001,2.6,2.0,9.67
 7,0,8,158,10,3,1,True,2.8000000000000003,-0.0,1.6,3.16,4.4,2.6,2.0,12.16
