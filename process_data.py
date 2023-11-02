@@ -6,13 +6,13 @@ player_list = open('player_list.txt', "r")
 player_names = []
 
 # KILLS, DEATHS, ASSISTS, CS + METAGAME pts
-static_vals_top = [0.40, -0.15, 0.20, 0.02]
-static_vals_jgl = [0.40, -0.15, 0.20, 0.02]
-static_vals_mid = [0.40, -0.20, 0.15, 0.015]
-static_vals_adc = [0.40, -0.20, 0.15, 0.015]
-static_vals_sup = [0.40, -0.10, 0.35, 0.03]
-static_vals_meta = [0.10, 0.20, 0.50, 0.50]
-static_win = 2.00
+static_vals_top = [float(0.40), float(-0.15), float(0.20), float(0.02)]
+static_vals_jgl = [float(0.40), float(-0.15), float(0.20), float(0.02)]
+static_vals_mid = [float(0.40), float(-0.20), float(0.15), float(0.015)]
+static_vals_adc = [float(0.40), float(-0.20), float(0.15), float(0.015)]
+static_vals_sup = [float(0.40), float(-0.10), float(0.35), float(0.03)]
+static_vals_meta = [float(0.10), float(0.20), float(0.50), float(0.50)]
+static_win = float(2.00)
 
 for player_info in player_list:
     player_name = player_info.split('|')[2].strip()
@@ -71,13 +71,13 @@ for player_name in player_names:
         df_barons.append(raw_player_df.iloc[match].TeamBarons)
         df_first_blood.append(raw_player_df.iloc[match].TeamFirstBlood)
 
-        K_pts = static_vals[0] * raw_player_df.iloc[match].PlayerKills
-        D_pts = static_vals[1] * raw_player_df.iloc[match].PlayerDeaths
-        A_pts = static_vals[2] * raw_player_df.iloc[match].PlayerAssists
+        K_pts = static_vals[0] * float(raw_player_df.iloc[match].PlayerKills)
+        D_pts = static_vals[1] * float(raw_player_df.iloc[match].PlayerDeaths)
+        A_pts = static_vals[2] * float(raw_player_df.iloc[match].PlayerAssists)
 
-        T_pts = static_vals_meta[0] * raw_player_df.iloc[match].TeamTurrets
-        Dr_pts = static_vals_meta[1] * raw_player_df.iloc[match].TeamDrakes
-        B_pts = static_vals_meta[2] * raw_player_df.iloc[match].TeamBarons
+        T_pts = static_vals_meta[0] * float(raw_player_df.iloc[match].TeamTurrets)
+        Dr_pts = static_vals_meta[1] * float(raw_player_df.iloc[match].TeamDrakes)
+        B_pts = static_vals_meta[2] * float(raw_player_df.iloc[match].TeamBarons)
 
         # generate First Blood Points
         if raw_player_df.iloc[match].TeamFirstBlood:
@@ -99,7 +99,7 @@ for player_name in player_names:
 
         # Sum KDA, CS, TDFB points into PTV
         KDA_pts = K_pts + D_pts + A_pts
-        CS_pts = static_vals[3] * raw_player_df.iloc[match].PlayerCS
+        CS_pts = static_vals[3] * float(raw_player_df.iloc[match].PlayerCS)
         TDFB_pts = T_pts + Dr_pts + B_pts + FB_pts
         PTV_pts = KDA_pts + CS_pts + TDFB_pts + WIN_pts
 
