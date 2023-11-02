@@ -15,11 +15,10 @@ SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
 SAMPLE_SPREADSHEET_ID = '1nfSUWbHJIcNfXO-tWWV8YJinJ2SM02fTwC1M12HZ-Tw'
 SAMPLE_RANGE_NAME = 'test_sheet!A:E'
 
-
-def main():
+def setup_creds():
     """Shows basic usage of the Sheets API.
-    Prints values from a sample spreadsheet.
-    """
+        Prints values from a sample spreadsheet.
+        """
     creds = None
     # The file token.json stores the user's access and refresh tokens, and is
     # created automatically when the authorization flow completes for the first
@@ -38,6 +37,8 @@ def main():
         with open('token.json', 'w') as token:
             token.write(creds.to_json())
 
+def main():
+    setup_creds()
     try:
         service = build('sheets', 'v4', credentials=creds)
 
@@ -61,3 +62,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+

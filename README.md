@@ -10,3 +10,4 @@ Google Sheets API PyDoc Documentation: https://developers.google.com/resources/a
 - [ ] add remote connection to google spreadsheet   
 - [ ] setup processing of raw scraped data
 - [ ] clean up / refactor current code into classes/functions for customizability
+- [ ] add dataframe / pandas for analysis
