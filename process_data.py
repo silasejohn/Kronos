@@ -31,6 +31,11 @@ for player_name in player_names:
     df_dragons = []
     df_barons = []
     df_first_blood = []
+
+    df_K_pts = []
+    df_D_pts = []
+    df_A_pts = []
+
     df_CS_pts = []
     df_KDA_pts = []
     df_TDFB_pts = []
@@ -62,18 +67,22 @@ for player_name in player_names:
     print("Total Matches: ", num_total_matches)
     for match in range(num_total_matches):
         print("[Player Name]", player_name, "[Match Number]", match)
-        df_kills.append(float(raw_player_df.iloc[match].PlayerKills))
-        df_deaths.append(float(raw_player_df.iloc[match].PlayerDeaths))
-        df_assists.append(float(raw_player_df.iloc[match].PlayerAssists))
-        df_cs.append(float(raw_player_df.iloc[match].PlayerCS))
-        df_turrets.append(float(raw_player_df.iloc[match].TeamTurrets))
-        df_dragons.append(float(raw_player_df.iloc[match].TeamDrakes))
-        df_barons.append(float(raw_player_df.iloc[match].TeamBarons))
-        df_first_blood.append(float(raw_player_df.iloc[match].TeamFirstBlood))
+        df_kills.append(int(raw_player_df.iloc[match].PlayerKills))
+        df_deaths.append(int(raw_player_df.iloc[match].PlayerDeaths))
+        df_assists.append(int(raw_player_df.iloc[match].PlayerAssists))
+        df_cs.append(int(raw_player_df.iloc[match].PlayerCS))
+        df_turrets.append(int(raw_player_df.iloc[match].TeamTurrets))
+        df_dragons.append(int(raw_player_df.iloc[match].TeamDrakes))
+        df_barons.append(int(raw_player_df.iloc[match].TeamBarons))
+        df_first_blood.append(bool(raw_player_df.iloc[match].TeamFirstBlood))
 
         K_pts = static_vals[0] * float(raw_player_df.iloc[match].PlayerKills)
         D_pts = static_vals[1] * float(raw_player_df.iloc[match].PlayerDeaths)
         A_pts = static_vals[2] * float(raw_player_df.iloc[match].PlayerAssists)
+
+        df_K_pts.append(K_pts)
+        df_D_pts.append(D_pts)
+        df_A_pts.append(A_pts)
 
         T_pts = static_vals_meta[0] * float(raw_player_df.iloc[match].TeamTurrets)
         Dr_pts = static_vals_meta[1] * float(raw_player_df.iloc[match].TeamDrakes)
@@ -121,6 +130,9 @@ for player_name in player_names:
             "dragons": df_dragons,
             "barons": df_barons,
             "first_blood": df_first_blood,
+            "K_pts": df_K_pts,
+            "D_pts": df_D_pts,
+            "A_pts": df_A_pts,
             "CS_pts": df_CS_pts,
             "KDA_pts": df_KDA_pts,
             "TDFB_pts": df_TDFB_pts,
