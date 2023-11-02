@@ -46,7 +46,12 @@ for player_info in player_list:
     player_match_index = -1
     team_match_index = -1
 
-
+    # print(player_id)
+    # if int(player_id) != 738:
+    #     print("Player_id is", player_id, "moving on...")
+    #     continue
+    # elif int(player_id) == 738:
+    #     pass
 
     # printing processed data from input file
     searching_msg = "Searching database for {arg1} [{arg2}] player {arg3} [{arg4}]...".format(arg1=team_name,
@@ -96,6 +101,7 @@ for player_info in player_list:
                 relevant_match_metadata.append(match_metadata[6])  # tournament
                 relevant_match_metadata.append(match_metadata[1])  # game status
                 relevant_match_metadata.append(match_metadata[3])  # game time
+                relevant_match_metadata.append(player_role) # player role
                 print(relevant_match_metadata)
                 match_list.append(relevant_match_metadata)
 
@@ -234,9 +240,9 @@ for player_info in player_list:
             writer = csv.writer(file)
 
             # writer headers to csv file
-            headers = ["GamePageID", "Tournament", "GameOutcome", "GameTime", "EgoPlayerTeam", "OppoPlayerTeam",
-                       "PlayerKills", "PlayerDeaths", "PlayerAssists", "PlayerCS", "TeamTurrets", "TeamDrakes",
-                       "TeamBarons", "TeamFirstBlood", "GameLink"]
+            headers = ["GamePageID", "Tournament", "GameOutcome", "GameTime", "EgoPlayerRole", "EgoPlayerTeam",
+                       "OppoPlayerTeam", "PlayerKills", "PlayerDeaths", "PlayerAssists", "PlayerCS", "TeamTurrets",
+                       "TeamDrakes", "TeamBarons", "TeamFirstBlood", "GameLink"]
             writer.writerow(headers)
 
             # write match-data columns to csv file

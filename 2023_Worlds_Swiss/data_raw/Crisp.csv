@@ -1,9 +1,9 @@
-GamePageID,Tournament,GameOutcome,GameTime,EgoPlayerTeam,OppoPlayerTeam,PlayerKills,PlayerDeaths,PlayerAssists,PlayerCS,TeamTurrets,TeamDrakes,TeamBarons,TeamFirstBlood,GameLink
-53591,Worlds Main Event 2023,Victory,23:38,Weibo Gaming,Fnatic,4,1,11,22,9,3,1,True,https://gol.gg/game/stats/53591/page-game/
-53590,Worlds Main Event 2023,Victory,30:42,Weibo Gaming,Fnatic,1,1,13,40,10,2,2,False,https://gol.gg/game/stats/53590/page-game/
-53589,Worlds Main Event 2023,Defeat,28:23,Weibo Gaming,Fnatic,0,3,3,44,2,0,0,False,https://gol.gg/game/stats/53589/page-game/
-53573,Worlds Main Event 2023,Victory,28:58,Weibo Gaming,MAD Lions,2,2,15,31,11,2,2,True,https://gol.gg/game/stats/53573/page-game/
-53572,Worlds Main Event 2023,Victory,32:13,Weibo Gaming,MAD Lions,1,2,18,21,8,2,1,True,https://gol.gg/game/stats/53572/page-game/
-53563,Worlds Main Event 2023,Defeat,38:40,Weibo Gaming,KT Rolster,0,6,7,36,0,3,0,True,https://gol.gg/game/stats/53563/page-game/
-53551,Worlds Main Event 2023,Defeat,38:24,Weibo Gaming,G2 Esports,0,7,9,41,7,4,2,True,https://gol.gg/game/stats/53551/page-game/
-53543,Worlds Main Event 2023,Victory,29:11,Weibo Gaming,NRG,0,1,5,40,9,3,2,True,https://gol.gg/game/stats/53543/page-game/
+GamePageID,Tournament,GameOutcome,GameTime,EgoPlayerRole,EgoPlayerTeam,OppoPlayerTeam,PlayerKills,PlayerDeaths,PlayerAssists,PlayerCS,TeamTurrets,TeamDrakes,TeamBarons,TeamFirstBlood,GameLink
+53591,Worlds Main Event 2023,Victory,23:38,Support,Weibo Gaming,Fnatic,4,1,11,22,9,3,1,True,https://gol.gg/game/stats/53591/page-game/
+53590,Worlds Main Event 2023,Victory,30:42,Support,Weibo Gaming,Fnatic,1,1,13,40,10,2,2,False,https://gol.gg/game/stats/53590/page-game/
+53589,Worlds Main Event 2023,Defeat,28:23,Support,Weibo Gaming,Fnatic,0,3,3,44,2,0,0,False,https://gol.gg/game/stats/53589/page-game/
+53573,Worlds Main Event 2023,Victory,28:58,Support,Weibo Gaming,MAD Lions,2,2,15,31,11,2,2,True,https://gol.gg/game/stats/53573/page-game/
+53572,Worlds Main Event 2023,Victory,32:13,Support,Weibo Gaming,MAD Lions,1,2,18,21,8,2,1,True,https://gol.gg/game/stats/53572/page-game/
+53563,Worlds Main Event 2023,Defeat,38:40,Support,Weibo Gaming,KT Rolster,0,6,7,36,0,3,0,True,https://gol.gg/game/stats/53563/page-game/
+53551,Worlds Main Event 2023,Defeat,38:24,Support,Weibo Gaming,G2 Esports,0,7,9,41,7,4,2,True,https://gol.gg/game/stats/53551/page-game/
+53543,Worlds Main Event 2023,Victory,29:11,Support,Weibo Gaming,NRG,0,1,5,40,9,3,2,True,https://gol.gg/game/stats/53543/page-game/

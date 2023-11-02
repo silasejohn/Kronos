@@ -1,6 +1,6 @@
-GamePageID,Tournament,GameOutcome,GameTime,EgoPlayerTeam,OppoPlayerTeam,PlayerKills,PlayerDeaths,PlayerAssists,PlayerCS,TeamTurrets,TeamDrakes,TeamBarons,TeamFirstBlood,GameLink
-53556,Worlds Main Event 2023,Victory,26:35,JD Gaming,LNG Esports,2,2,4,180,8,2,1,False,https://gol.gg/game/stats/53556/page-game/
-53555,Worlds Main Event 2023,Defeat,28:30,JD Gaming,LNG Esports,1,3,1,168,0,1,0,False,https://gol.gg/game/stats/53555/page-game/
-53554,Worlds Main Event 2023,Victory,27:39,JD Gaming,LNG Esports,4,1,10,180,8,1,1,True,https://gol.gg/game/stats/53554/page-game/
-53552,Worlds Main Event 2023,Victory,24:38,JD Gaming,Bilibili Gaming,6,2,12,157,10,4,1,True,https://gol.gg/game/stats/53552/page-game/
-53541,Worlds Main Event 2023,Victory,27:04,JD Gaming,Team BDS,2,3,12,185,9,3,1,False,https://gol.gg/game/stats/53541/page-game/
+GamePageID,Tournament,GameOutcome,GameTime,EgoPlayerRole,EgoPlayerTeam,OppoPlayerTeam,PlayerKills,PlayerDeaths,PlayerAssists,PlayerCS,TeamTurrets,TeamDrakes,TeamBarons,TeamFirstBlood,GameLink
+53556,Worlds Main Event 2023,Victory,26:35,Jungle,JD Gaming,LNG Esports,2,2,4,180,8,2,1,False,https://gol.gg/game/stats/53556/page-game/
+53555,Worlds Main Event 2023,Defeat,28:30,Jungle,JD Gaming,LNG Esports,1,3,1,168,0,1,0,False,https://gol.gg/game/stats/53555/page-game/
+53554,Worlds Main Event 2023,Victory,27:39,Jungle,JD Gaming,LNG Esports,4,1,10,180,8,1,1,True,https://gol.gg/game/stats/53554/page-game/
+53552,Worlds Main Event 2023,Victory,24:38,Jungle,JD Gaming,Bilibili Gaming,6,2,12,157,10,4,1,True,https://gol.gg/game/stats/53552/page-game/
+53541,Worlds Main Event 2023,Victory,27:04,Jungle,JD Gaming,Team BDS,2,3,12,185,9,3,1,False,https://gol.gg/game/stats/53541/page-game/

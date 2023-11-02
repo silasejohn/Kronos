@@ -1,9 +1,9 @@
-GamePageID,Tournament,GameOutcome,GameTime,EgoPlayerTeam,OppoPlayerTeam,PlayerKills,PlayerDeaths,PlayerAssists,PlayerCS,TeamTurrets,TeamDrakes,TeamBarons,TeamFirstBlood,GameLink
-53594,Worlds Main Event 2023,Victory,29:07,Bilibili Gaming,G2 Esports,4,1,9,181,11,4,1,True,https://gol.gg/game/stats/53594/page-game/
-53593,Worlds Main Event 2023,Defeat,43:57,Bilibili Gaming,G2 Esports,4,4,10,190,6,0,2,False,https://gol.gg/game/stats/53593/page-game/
-53592,Worlds Main Event 2023,Victory,34:22,Bilibili Gaming,G2 Esports,2,0,8,191,9,4,2,True,https://gol.gg/game/stats/53592/page-game/
-53585,Worlds Main Event 2023,Defeat,31:01,Bilibili Gaming,T1,0,3,4,178,2,1,0,True,https://gol.gg/game/stats/53585/page-game/
-53584,Worlds Main Event 2023,Defeat,28:44,Bilibili Gaming,T1,0,3,3,163,0,0,0,False,https://gol.gg/game/stats/53584/page-game/
-53562,Worlds Main Event 2023,Victory,32:59,Bilibili Gaming,Fnatic,1,2,13,180,9,3,1,False,https://gol.gg/game/stats/53562/page-game/
-53552,Worlds Main Event 2023,Defeat,24:38,Bilibili Gaming,JD Gaming,1,4,4,143,1,0,0,False,https://gol.gg/game/stats/53552/page-game/
-53545,Worlds Main Event 2023,Victory,45:16,Bilibili Gaming,KT Rolster,6,2,12,210,10,4,2,False,https://gol.gg/game/stats/53545/page-game/
+GamePageID,Tournament,GameOutcome,GameTime,EgoPlayerRole,EgoPlayerTeam,OppoPlayerTeam,PlayerKills,PlayerDeaths,PlayerAssists,PlayerCS,TeamTurrets,TeamDrakes,TeamBarons,TeamFirstBlood,GameLink
+53594,Worlds Main Event 2023,Victory,29:07,Jungle,Bilibili Gaming,G2 Esports,4,1,9,181,11,4,1,True,https://gol.gg/game/stats/53594/page-game/
+53593,Worlds Main Event 2023,Defeat,43:57,Jungle,Bilibili Gaming,G2 Esports,4,4,10,190,6,0,2,False,https://gol.gg/game/stats/53593/page-game/
+53592,Worlds Main Event 2023,Victory,34:22,Jungle,Bilibili Gaming,G2 Esports,2,0,8,191,9,4,2,True,https://gol.gg/game/stats/53592/page-game/
+53585,Worlds Main Event 2023,Defeat,31:01,Jungle,Bilibili Gaming,T1,0,3,4,178,2,1,0,True,https://gol.gg/game/stats/53585/page-game/
+53584,Worlds Main Event 2023,Defeat,28:44,Jungle,Bilibili Gaming,T1,0,3,3,163,0,0,0,False,https://gol.gg/game/stats/53584/page-game/
+53562,Worlds Main Event 2023,Victory,32:59,Jungle,Bilibili Gaming,Fnatic,1,2,13,180,9,3,1,False,https://gol.gg/game/stats/53562/page-game/
+53552,Worlds Main Event 2023,Defeat,24:38,Jungle,Bilibili Gaming,JD Gaming,1,4,4,143,1,0,0,False,https://gol.gg/game/stats/53552/page-game/
+53545,Worlds Main Event 2023,Victory,45:16,Jungle,Bilibili Gaming,KT Rolster,6,2,12,210,10,4,2,False,https://gol.gg/game/stats/53545/page-game/

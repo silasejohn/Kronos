@@ -27,7 +27,7 @@
 1770|KT Rolster|Cuzz|983|Jungle
 1770|KT Rolster|Bdd|650|Mid
 1770|KT Rolster|Aiming|1328|ADC
-1770|KT Rolster|Lehends|728|Support
+1770|KT Rolster|Lehends|738|Support
 1786|LNG Esports|Zika|4473|Top
 1786|LNG Esports|Tarzan|1226|Jungle
 1786|LNG Esports|Scout|610|Mid

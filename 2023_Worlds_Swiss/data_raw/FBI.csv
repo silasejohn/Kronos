@@ -1,6 +1,6 @@
-GamePageID,Tournament,GameOutcome,GameTime,EgoPlayerTeam,OppoPlayerTeam,PlayerKills,PlayerDeaths,PlayerAssists,PlayerCS,TeamTurrets,TeamDrakes,TeamBarons,TeamFirstBlood,GameLink
-53582,Worlds Main Event 2023,Victory,28:29,NRG,G2 Esports,6,2,7,270,9,4,1,True,https://gol.gg/game/stats/53582/page-game/
-53581,Worlds Main Event 2023,Victory,31:03,NRG,G2 Esports,1,0,15,194,10,4,1,False,https://gol.gg/game/stats/53581/page-game/
-53561,Worlds Main Event 2023,Victory,41:40,NRG,MAD Lions,12,4,6,383,10,4,2,True,https://gol.gg/game/stats/53561/page-game/
-53546,Worlds Main Event 2023,Victory,31:38,NRG,Team Liquid,1,0,13,184,9,2,1,True,https://gol.gg/game/stats/53546/page-game/
-53543,Worlds Main Event 2023,Defeat,29:11,NRG,Weibo Gaming,0,2,1,250,2,1,0,False,https://gol.gg/game/stats/53543/page-game/
+GamePageID,Tournament,GameOutcome,GameTime,EgoPlayerRole,EgoPlayerTeam,OppoPlayerTeam,PlayerKills,PlayerDeaths,PlayerAssists,PlayerCS,TeamTurrets,TeamDrakes,TeamBarons,TeamFirstBlood,GameLink
+53582,Worlds Main Event 2023,Victory,28:29,ADC,NRG,G2 Esports,6,2,7,270,9,4,1,True,https://gol.gg/game/stats/53582/page-game/
+53581,Worlds Main Event 2023,Victory,31:03,ADC,NRG,G2 Esports,1,0,15,194,10,4,1,False,https://gol.gg/game/stats/53581/page-game/
+53561,Worlds Main Event 2023,Victory,41:40,ADC,NRG,MAD Lions,12,4,6,383,10,4,2,True,https://gol.gg/game/stats/53561/page-game/
+53546,Worlds Main Event 2023,Victory,31:38,ADC,NRG,Team Liquid,1,0,13,184,9,2,1,True,https://gol.gg/game/stats/53546/page-game/
+53543,Worlds Main Event 2023,Defeat,29:11,ADC,NRG,Weibo Gaming,0,2,1,250,2,1,0,False,https://gol.gg/game/stats/53543/page-game/

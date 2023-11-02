@@ -1,6 +1,6 @@
-GamePageID,Tournament,GameOutcome,GameTime,EgoPlayerTeam,OppoPlayerTeam,PlayerKills,PlayerDeaths,PlayerAssists,PlayerCS,TeamTurrets,TeamDrakes,TeamBarons,TeamFirstBlood,GameLink
-53585,Worlds Main Event 2023,Victory,31:01,T1,Bilibili Gaming,2,2,12,247,9,4,1,False,https://gol.gg/game/stats/53585/page-game/
-53584,Worlds Main Event 2023,Victory,28:44,T1,Bilibili Gaming,3,0,5,290,10,3,1,True,https://gol.gg/game/stats/53584/page-game/
-53560,Worlds Main Event 2023,Victory,22:25,T1,Cloud9,0,0,5,201,10,3,1,True,https://gol.gg/game/stats/53560/page-game/
-53550,Worlds Main Event 2023,Defeat,29:41,T1,Gen.G eSports,4,4,1,271,4,1,0,True,https://gol.gg/game/stats/53550/page-game/
-53538,Worlds Main Event 2023,Victory,36:28,T1,Team Liquid,5,4,4,348,7,2,0,True,https://gol.gg/game/stats/53538/page-game/
+GamePageID,Tournament,GameOutcome,GameTime,EgoPlayerRole,EgoPlayerTeam,OppoPlayerTeam,PlayerKills,PlayerDeaths,PlayerAssists,PlayerCS,TeamTurrets,TeamDrakes,TeamBarons,TeamFirstBlood,GameLink
+53585,Worlds Main Event 2023,Victory,31:01,Mid,T1,Bilibili Gaming,2,2,12,247,9,4,1,False,https://gol.gg/game/stats/53585/page-game/
+53584,Worlds Main Event 2023,Victory,28:44,Mid,T1,Bilibili Gaming,3,0,5,290,10,3,1,True,https://gol.gg/game/stats/53584/page-game/
+53560,Worlds Main Event 2023,Victory,22:25,Mid,T1,Cloud9,0,0,5,201,10,3,1,True,https://gol.gg/game/stats/53560/page-game/
+53550,Worlds Main Event 2023,Defeat,29:41,Mid,T1,Gen.G eSports,4,4,1,271,4,1,0,True,https://gol.gg/game/stats/53550/page-game/
+53538,Worlds Main Event 2023,Victory,36:28,Mid,T1,Team Liquid,5,4,4,348,7,2,0,True,https://gol.gg/game/stats/53538/page-game/

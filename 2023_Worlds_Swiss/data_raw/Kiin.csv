@@ -1,9 +1,9 @@
-GamePageID,Tournament,GameOutcome,GameTime,EgoPlayerTeam,OppoPlayerTeam,PlayerKills,PlayerDeaths,PlayerAssists,PlayerCS,TeamTurrets,TeamDrakes,TeamBarons,TeamFirstBlood,GameLink
-53587,Worlds Main Event 2023,Victory,43:25,KT Rolster,Dplus KIA,3,3,8,368,9,3,1,False,https://gol.gg/game/stats/53587/page-game/
-53586,Worlds Main Event 2023,Victory,34:24,KT Rolster,Dplus KIA,4,1,9,302,11,1,2,False,https://gol.gg/game/stats/53586/page-game/
-53580,Worlds Main Event 2023,Defeat,24:20,KT Rolster,LNG Esports,1,4,1,174,1,2,0,True,https://gol.gg/game/stats/53580/page-game/
-53579,Worlds Main Event 2023,Victory,32:34,KT Rolster,LNG Esports,1,2,2,293,10,4,2,False,https://gol.gg/game/stats/53579/page-game/
-53578,Worlds Main Event 2023,Defeat,35:30,KT Rolster,LNG Esports,1,4,2,258,3,3,0,True,https://gol.gg/game/stats/53578/page-game/
-53563,Worlds Main Event 2023,Victory,38:40,KT Rolster,Weibo Gaming,3,3,12,275,9,3,2,False,https://gol.gg/game/stats/53563/page-game/
-53553,Worlds Main Event 2023,Victory,32:01,KT Rolster,Dplus KIA,1,2,11,279,9,1,1,True,https://gol.gg/game/stats/53553/page-game/
-53545,Worlds Main Event 2023,Defeat,45:16,KT Rolster,Bilibili Gaming,2,5,4,353,4,2,1,True,https://gol.gg/game/stats/53545/page-game/
+GamePageID,Tournament,GameOutcome,GameTime,EgoPlayerRole,EgoPlayerTeam,OppoPlayerTeam,PlayerKills,PlayerDeaths,PlayerAssists,PlayerCS,TeamTurrets,TeamDrakes,TeamBarons,TeamFirstBlood,GameLink
+53587,Worlds Main Event 2023,Victory,43:25,Top,KT Rolster,Dplus KIA,3,3,8,368,9,3,1,False,https://gol.gg/game/stats/53587/page-game/
+53586,Worlds Main Event 2023,Victory,34:24,Top,KT Rolster,Dplus KIA,4,1,9,302,11,1,2,False,https://gol.gg/game/stats/53586/page-game/
+53580,Worlds Main Event 2023,Defeat,24:20,Top,KT Rolster,LNG Esports,1,4,1,174,1,2,0,True,https://gol.gg/game/stats/53580/page-game/
+53579,Worlds Main Event 2023,Victory,32:34,Top,KT Rolster,LNG Esports,1,2,2,293,10,4,2,False,https://gol.gg/game/stats/53579/page-game/
+53578,Worlds Main Event 2023,Defeat,35:30,Top,KT Rolster,LNG Esports,1,4,2,258,3,3,0,True,https://gol.gg/game/stats/53578/page-game/
+53563,Worlds Main Event 2023,Victory,38:40,Top,KT Rolster,Weibo Gaming,3,3,12,275,9,3,2,False,https://gol.gg/game/stats/53563/page-game/
+53553,Worlds Main Event 2023,Victory,32:01,Top,KT Rolster,Dplus KIA,1,2,11,279,9,1,1,True,https://gol.gg/game/stats/53553/page-game/
+53545,Worlds Main Event 2023,Defeat,45:16,Top,KT Rolster,Bilibili Gaming,2,5,4,353,4,2,1,True,https://gol.gg/game/stats/53545/page-game/
