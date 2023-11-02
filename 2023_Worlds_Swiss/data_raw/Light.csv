@@ -1,9 +1,9 @@
-champName,gameOutcome,KDA,gameTime,gameDate,matchup,split
-Caitlyn,Victory,5/0/7,23:38,2023-10-29,Fnatic vs WBG,Worlds Main Event 2023
-Aphelios,Victory,10/1/4,30:42,2023-10-29,Fnatic vs WBG,Worlds Main Event 2023
-Zeri,Defeat,1/2/1,28:23,2023-10-29,Fnatic vs WBG,Worlds Main Event 2023
-Aphelios,Victory,8/0/7,28:58,2023-10-26,MAD Lions vs WBG,Worlds Main Event 2023
-Kalista,Victory,11/3/8,32:13,2023-10-26,MAD Lions vs WBG,Worlds Main Event 2023
-Sivir,Defeat,3/2/8,38:40,2023-10-22,KT Rolster vs WBG,Worlds Main Event 2023
-Kaisa,Defeat,4/4/7,38:24,2023-10-20,G2 Esports vs WBG,Worlds Main Event 2023
-Kaisa,Victory,7/0/4,29:11,2023-10-19,NRG vs WBG,Worlds Main Event 2023
+GamePageID,Tournament,GameOutcome,GameTime,EgoPlayerTeam,OppoPlayerTeam,PlayerKills,PlayerDeaths,PlayerAssists,PlayerCS,TeamTurrets,TeamDrakes,TeamBarons,TeamFirstBlood,GameLink
+53591,Worlds Main Event 2023,Victory,23:38,Weibo Gaming,Fnatic,5,0,7,253,9,3,1,True,https://gol.gg/game/stats/53591/page-game/
+53590,Worlds Main Event 2023,Victory,30:42,Weibo Gaming,Fnatic,10,1,4,332,10,2,2,False,https://gol.gg/game/stats/53590/page-game/
+53589,Worlds Main Event 2023,Defeat,28:23,Weibo Gaming,Fnatic,1,2,1,272,2,0,0,False,https://gol.gg/game/stats/53589/page-game/
+53573,Worlds Main Event 2023,Victory,28:58,Weibo Gaming,MAD Lions,8,0,7,237,11,2,2,True,https://gol.gg/game/stats/53573/page-game/
+53572,Worlds Main Event 2023,Victory,32:13,Weibo Gaming,MAD Lions,11,3,8,284,8,2,1,True,https://gol.gg/game/stats/53572/page-game/
+53563,Worlds Main Event 2023,Defeat,38:40,Weibo Gaming,KT Rolster,3,2,8,376,0,3,0,True,https://gol.gg/game/stats/53563/page-game/
+53551,Worlds Main Event 2023,Defeat,38:24,Weibo Gaming,G2 Esports,4,4,7,311,7,4,2,True,https://gol.gg/game/stats/53551/page-game/
+53543,Worlds Main Event 2023,Victory,29:11,Weibo Gaming,NRG,7,0,4,298,9,3,2,True,https://gol.gg/game/stats/53543/page-game/

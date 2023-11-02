@@ -1,9 +1,9 @@
-champName,gameOutcome,KDA,gameTime,gameDate,matchup,split
-Zeri,Victory,8/1/6,43:25,2023-10-29,KT Rolster vs Dplus KIA,Worlds Main Event 2023
-Zeri,Victory,7/0/7,34:24,2023-10-29,KT Rolster vs Dplus KIA,Worlds Main Event 2023
-Aphelios,Defeat,0/1/3,24:20,2023-10-27,KT Rolster vs LNG Esports,Worlds Main Event 2023
-Kaisa,Victory,7/0/4,32:34,2023-10-27,KT Rolster vs LNG Esports,Worlds Main Event 2023
-Jinx,Defeat,4/2/4,35:30,2023-10-27,KT Rolster vs LNG Esports,Worlds Main Event 2023
-Kaisa,Victory,14/3/7,38:40,2023-10-22,KT Rolster vs WBG,Worlds Main Event 2023
-Xayah,Victory,9/0/6,32:01,2023-10-20,KT Rolster vs Dplus KIA,Worlds Main Event 2023
-Kaisa,Defeat,5/5/3,45:16,2023-10-19,BLG vs KT,Worlds Main Event 2023
+GamePageID,Tournament,GameOutcome,GameTime,EgoPlayerTeam,OppoPlayerTeam,PlayerKills,PlayerDeaths,PlayerAssists,PlayerCS,TeamTurrets,TeamDrakes,TeamBarons,TeamFirstBlood,GameLink
+53587,Worlds Main Event 2023,Victory,43:25,KT Rolster,Dplus KIA,8,1,6,543,9,3,1,False,https://gol.gg/game/stats/53587/page-game/
+53586,Worlds Main Event 2023,Victory,34:24,KT Rolster,Dplus KIA,7,0,7,372,11,1,2,False,https://gol.gg/game/stats/53586/page-game/
+53580,Worlds Main Event 2023,Defeat,24:20,KT Rolster,LNG Esports,0,1,3,231,1,2,0,True,https://gol.gg/game/stats/53580/page-game/
+53579,Worlds Main Event 2023,Victory,32:34,KT Rolster,LNG Esports,7,0,4,363,10,4,2,False,https://gol.gg/game/stats/53579/page-game/
+53578,Worlds Main Event 2023,Defeat,35:30,KT Rolster,LNG Esports,4,2,4,356,3,3,0,True,https://gol.gg/game/stats/53578/page-game/
+53563,Worlds Main Event 2023,Victory,38:40,KT Rolster,Weibo Gaming,14,3,7,385,9,3,2,False,https://gol.gg/game/stats/53563/page-game/
+53553,Worlds Main Event 2023,Victory,32:01,KT Rolster,Dplus KIA,9,0,6,385,9,1,1,True,https://gol.gg/game/stats/53553/page-game/
+53545,Worlds Main Event 2023,Defeat,45:16,KT Rolster,Bilibili Gaming,5,5,3,457,4,2,1,True,https://gol.gg/game/stats/53545/page-game/

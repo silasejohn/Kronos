@@ -1,9 +1,9 @@
-champName,gameOutcome,KDA,gameTime,gameDate,matchup,split
-Orianna,Victory,3/1/10,24:20,2023-10-27,KT Rolster vs LNG Esports,Worlds Main Event 2023
-Azir,Defeat,1/2/1,32:34,2023-10-27,KT Rolster vs LNG Esports,Worlds Main Event 2023
-Neeko,Victory,3/3/6,35:30,2023-10-27,KT Rolster vs LNG Esports,Worlds Main Event 2023
-Ahri,Defeat,3/2/2,26:35,2023-10-21,JD Gaming vs LNG Esports,Worlds Main Event 2023
-Sylas,Victory,5/0/6,28:30,2023-10-21,JD Gaming vs LNG Esports,Worlds Main Event 2023
-Akali,Defeat,1/4/4,27:39,2023-10-21,JD Gaming vs LNG Esports,Worlds Main Event 2023
-Azir,Victory,7/1/4,32:13,2023-10-20,Cloud9 vs LNG Esports,Worlds Main Event 2023
-Azir,Victory,11/0/7,29:11,2023-10-19,Fnatic vs LNG Esports,Worlds Main Event 2023
+GamePageID,Tournament,GameOutcome,GameTime,EgoPlayerTeam,OppoPlayerTeam,PlayerKills,PlayerDeaths,PlayerAssists,PlayerCS,TeamTurrets,TeamDrakes,TeamBarons,TeamFirstBlood,GameLink
+53580,Worlds Main Event 2023,Victory,24:20,LNG Esports,KT Rolster,3,1,10,227,8,1,1,False,https://gol.gg/game/stats/53580/page-game/
+53579,Worlds Main Event 2023,Defeat,32:34,LNG Esports,KT Rolster,1,2,1,303,2,0,0,True,https://gol.gg/game/stats/53579/page-game/
+53578,Worlds Main Event 2023,Victory,35:30,LNG Esports,KT Rolster,3,3,6,261,9,2,2,False,https://gol.gg/game/stats/53578/page-game/
+53556,Worlds Main Event 2023,Defeat,26:35,LNG Esports,JD Gaming,3,2,2,239,2,1,0,True,https://gol.gg/game/stats/53556/page-game/
+53555,Worlds Main Event 2023,Victory,28:30,LNG Esports,JD Gaming,5,0,6,274,8,3,1,True,https://gol.gg/game/stats/53555/page-game/
+53554,Worlds Main Event 2023,Defeat,27:39,LNG Esports,JD Gaming,1,4,4,201,3,3,0,False,https://gol.gg/game/stats/53554/page-game/
+53547,Worlds Main Event 2023,Victory,32:13,LNG Esports,Cloud9,7,1,4,298,10,4,1,True,https://gol.gg/game/stats/53547/page-game/
+53544,Worlds Main Event 2023,Victory,29:11,LNG Esports,Fnatic,11,0,7,257,9,2,2,True,https://gol.gg/game/stats/53544/page-game/

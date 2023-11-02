@@ -1,6 +1,6 @@
-champName,gameOutcome,KDA,gameTime,gameDate,matchup,split
-Gragas,Victory,0/2/5,31:01,2023-10-28,T1 vs BLG,Worlds Main Event 2023
-Gnar,Victory,3/1/2,28:44,2023-10-28,T1 vs BLG,Worlds Main Event 2023
-Rumble,Victory,3/0/7,22:25,2023-10-22,T1 vs Cloud9,Worlds Main Event 2023
-Aatrox,Defeat,0/2/0,29:41,2023-10-20,GEN vs T1,Worlds Main Event 2023
-Jayce,Victory,6/3/4,36:28,2023-10-19,T1 vs Team Liquid,Worlds Main Event 2023
+GamePageID,Tournament,GameOutcome,GameTime,EgoPlayerTeam,OppoPlayerTeam,PlayerKills,PlayerDeaths,PlayerAssists,PlayerCS,TeamTurrets,TeamDrakes,TeamBarons,TeamFirstBlood,GameLink
+53585,Worlds Main Event 2023,Victory,31:01,T1,Bilibili Gaming,0,2,5,248,9,4,1,False,https://gol.gg/game/stats/53585/page-game/
+53584,Worlds Main Event 2023,Victory,28:44,T1,Bilibili Gaming,3,1,2,317,10,3,1,True,https://gol.gg/game/stats/53584/page-game/
+53560,Worlds Main Event 2023,Victory,22:25,T1,Cloud9,3,0,7,200,10,3,1,True,https://gol.gg/game/stats/53560/page-game/
+53550,Worlds Main Event 2023,Defeat,29:41,T1,Gen.G eSports,0,2,0,263,4,1,0,True,https://gol.gg/game/stats/53550/page-game/
+53538,Worlds Main Event 2023,Victory,36:28,T1,Team Liquid,6,3,4,348,7,2,0,True,https://gol.gg/game/stats/53538/page-game/

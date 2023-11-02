@@ -1,6 +1,6 @@
-champName,gameOutcome,KDA,gameTime,gameDate,matchup,split
-Neeko,Victory,4/0/6,26:35,2023-10-21,JD Gaming vs LNG Esports,Worlds Main Event 2023
-Jayce,Defeat,0/3/2,28:30,2023-10-21,JD Gaming vs LNG Esports,Worlds Main Event 2023
-Orianna,Victory,6/2/8,27:39,2023-10-21,JD Gaming vs LNG Esports,Worlds Main Event 2023
-Vex,Victory,2/2/12,24:38,2023-10-20,JD Gaming vs BLG,Worlds Main Event 2023
-Ahri,Victory,6/1/4,27:04,2023-10-19,JD Gaming vs Team BDS,Worlds Main Event 2023
+GamePageID,Tournament,GameOutcome,GameTime,EgoPlayerTeam,OppoPlayerTeam,PlayerKills,PlayerDeaths,PlayerAssists,PlayerCS,TeamTurrets,TeamDrakes,TeamBarons,TeamFirstBlood,GameLink
+53556,Worlds Main Event 2023,Victory,26:35,JD Gaming,LNG Esports,4,0,6,236,8,2,1,False,https://gol.gg/game/stats/53556/page-game/
+53555,Worlds Main Event 2023,Defeat,28:30,JD Gaming,LNG Esports,0,3,2,252,0,1,0,False,https://gol.gg/game/stats/53555/page-game/
+53554,Worlds Main Event 2023,Victory,27:39,JD Gaming,LNG Esports,6,2,8,246,8,1,1,True,https://gol.gg/game/stats/53554/page-game/
+53552,Worlds Main Event 2023,Victory,24:38,JD Gaming,Bilibili Gaming,2,2,12,209,10,4,1,True,https://gol.gg/game/stats/53552/page-game/
+53541,Worlds Main Event 2023,Victory,27:04,JD Gaming,Team BDS,6,1,4,265,9,3,1,False,https://gol.gg/game/stats/53541/page-game/

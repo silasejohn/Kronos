@@ -1,6 +1,6 @@
-champName,gameOutcome,KDA,gameTime,gameDate,matchup,split
-Jinx,Victory,11/0/3,31:01,2023-10-28,T1 vs BLG,Worlds Main Event 2023
-Senna,Victory,4/0/4,28:44,2023-10-28,T1 vs BLG,Worlds Main Event 2023
-Xayah,Victory,4/0/3,22:25,2023-10-22,T1 vs Cloud9,Worlds Main Event 2023
-Kaisa,Defeat,0/3/2,29:41,2023-10-20,GEN vs T1,Worlds Main Event 2023
-Ashe,Victory,3/2/8,36:28,2023-10-19,T1 vs Team Liquid,Worlds Main Event 2023
+GamePageID,Tournament,GameOutcome,GameTime,EgoPlayerTeam,OppoPlayerTeam,PlayerKills,PlayerDeaths,PlayerAssists,PlayerCS,TeamTurrets,TeamDrakes,TeamBarons,TeamFirstBlood,GameLink
+53585,Worlds Main Event 2023,Victory,31:01,T1,Bilibili Gaming,11,0,3,353,9,4,1,False,https://gol.gg/game/stats/53585/page-game/
+53584,Worlds Main Event 2023,Victory,28:44,T1,Bilibili Gaming,2,1,8,167,10,3,1,True,https://gol.gg/game/stats/53584/page-game/
+53560,Worlds Main Event 2023,Victory,22:25,T1,Cloud9,4,0,3,224,10,3,1,True,https://gol.gg/game/stats/53560/page-game/
+53550,Worlds Main Event 2023,Defeat,29:41,T1,Gen.G eSports,0,3,2,292,4,1,0,True,https://gol.gg/game/stats/53550/page-game/
+53538,Worlds Main Event 2023,Victory,36:28,T1,Team Liquid,3,2,8,388,7,2,0,True,https://gol.gg/game/stats/53538/page-game/

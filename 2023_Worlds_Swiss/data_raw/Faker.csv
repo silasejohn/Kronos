@@ -1,6 +1,6 @@
-champName,gameOutcome,KDA,gameTime,gameDate,matchup,split
-Orianna,Victory,2/2/12,31:01,2023-10-28,T1 vs BLG,Worlds Main Event 2023
-Azir,Victory,3/0/5,28:44,2023-10-28,T1 vs BLG,Worlds Main Event 2023
-Sylas,Victory,0/0/5,22:25,2023-10-22,T1 vs Cloud9,Worlds Main Event 2023
-Orianna,Defeat,4/4/1,29:41,2023-10-20,GEN vs T1,Worlds Main Event 2023
-Orianna,Victory,5/4/4,36:28,2023-10-19,T1 vs Team Liquid,Worlds Main Event 2023
+GamePageID,Tournament,GameOutcome,GameTime,EgoPlayerTeam,OppoPlayerTeam,PlayerKills,PlayerDeaths,PlayerAssists,PlayerCS,TeamTurrets,TeamDrakes,TeamBarons,TeamFirstBlood,GameLink
+53585,Worlds Main Event 2023,Victory,31:01,T1,Bilibili Gaming,2,2,12,247,9,4,1,False,https://gol.gg/game/stats/53585/page-game/
+53584,Worlds Main Event 2023,Victory,28:44,T1,Bilibili Gaming,3,0,5,290,10,3,1,True,https://gol.gg/game/stats/53584/page-game/
+53560,Worlds Main Event 2023,Victory,22:25,T1,Cloud9,0,0,5,201,10,3,1,True,https://gol.gg/game/stats/53560/page-game/
+53550,Worlds Main Event 2023,Defeat,29:41,T1,Gen.G eSports,4,4,1,271,4,1,0,True,https://gol.gg/game/stats/53550/page-game/
+53538,Worlds Main Event 2023,Victory,36:28,T1,Team Liquid,5,4,4,348,7,2,0,True,https://gol.gg/game/stats/53538/page-game/

@@ -1,9 +1,9 @@
-champName,gameOutcome,KDA,gameTime,gameDate,matchup,split
-Jarvan IV,Victory,4/1/9,29:07,2023-10-29,G2 Esports vs BLG,Worlds Main Event 2023
-Maokai,Defeat,4/4/10,43:57,2023-10-29,G2 Esports vs BLG,Worlds Main Event 2023
-Sejuani,Victory,2/0/8,34:22,2023-10-29,G2 Esports vs BLG,Worlds Main Event 2023
-Vi,Defeat,0/3/4,31:01,2023-10-28,T1 vs BLG,Worlds Main Event 2023
-Nidalee,Defeat,0/3/3,28:44,2023-10-28,T1 vs BLG,Worlds Main Event 2023
-Sejuani,Victory,1/2/13,32:59,2023-10-22,BLG vs Fnatic,Worlds Main Event 2023
-Vi,Defeat,1/4/4,24:38,2023-10-20,JD Gaming vs BLG,Worlds Main Event 2023
-Maokai,Victory,6/2/12,45:16,2023-10-19,BLG vs KT,Worlds Main Event 2023
+GamePageID,Tournament,GameOutcome,GameTime,EgoPlayerTeam,OppoPlayerTeam,PlayerKills,PlayerDeaths,PlayerAssists,PlayerCS,TeamTurrets,TeamDrakes,TeamBarons,TeamFirstBlood,GameLink
+53594,Worlds Main Event 2023,Victory,29:07,Bilibili Gaming,G2 Esports,4,1,9,181,11,4,1,True,https://gol.gg/game/stats/53594/page-game/
+53593,Worlds Main Event 2023,Defeat,43:57,Bilibili Gaming,G2 Esports,4,4,10,190,6,0,2,False,https://gol.gg/game/stats/53593/page-game/
+53592,Worlds Main Event 2023,Victory,34:22,Bilibili Gaming,G2 Esports,2,0,8,191,9,4,2,True,https://gol.gg/game/stats/53592/page-game/
+53585,Worlds Main Event 2023,Defeat,31:01,Bilibili Gaming,T1,0,3,4,178,2,1,0,True,https://gol.gg/game/stats/53585/page-game/
+53584,Worlds Main Event 2023,Defeat,28:44,Bilibili Gaming,T1,0,3,3,163,0,0,0,False,https://gol.gg/game/stats/53584/page-game/
+53562,Worlds Main Event 2023,Victory,32:59,Bilibili Gaming,Fnatic,1,2,13,180,9,3,1,False,https://gol.gg/game/stats/53562/page-game/
+53552,Worlds Main Event 2023,Defeat,24:38,Bilibili Gaming,JD Gaming,1,4,4,143,1,0,0,False,https://gol.gg/game/stats/53552/page-game/
+53545,Worlds Main Event 2023,Victory,45:16,Bilibili Gaming,KT Rolster,6,2,12,210,10,4,2,False,https://gol.gg/game/stats/53545/page-game/

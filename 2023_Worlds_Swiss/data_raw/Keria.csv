@@ -1,6 +1,6 @@
-champName,gameOutcome,KDA,gameTime,gameDate,matchup,split
-Tahm Kench,Victory,0/1/13,31:01,2023-10-28,T1 vs BLG,Worlds Main Event 2023
-Tahm Kench,Victory,2/1/8,28:44,2023-10-28,T1 vs BLG,Worlds Main Event 2023
-Bard,Victory,1/0/11,22:25,2023-10-22,T1 vs Cloud9,Worlds Main Event 2023
-Alistar,Defeat,0/2/2,29:41,2023-10-20,GEN vs T1,Worlds Main Event 2023
-Renata Glasc,Victory,1/2/12,36:28,2023-10-19,T1 vs Team Liquid,Worlds Main Event 2023
+GamePageID,Tournament,GameOutcome,GameTime,EgoPlayerTeam,OppoPlayerTeam,PlayerKills,PlayerDeaths,PlayerAssists,PlayerCS,TeamTurrets,TeamDrakes,TeamBarons,TeamFirstBlood,GameLink
+53585,Worlds Main Event 2023,Victory,31:01,T1,Bilibili Gaming,0,1,13,33,9,4,1,False,https://gol.gg/game/stats/53585/page-game/
+53584,Worlds Main Event 2023,Victory,28:44,T1,Bilibili Gaming,4,0,4,65,10,3,1,True,https://gol.gg/game/stats/53584/page-game/
+53560,Worlds Main Event 2023,Victory,22:25,T1,Cloud9,1,0,11,22,10,3,1,True,https://gol.gg/game/stats/53560/page-game/
+53550,Worlds Main Event 2023,Defeat,29:41,T1,Gen.G eSports,0,2,2,33,4,1,0,True,https://gol.gg/game/stats/53550/page-game/
+53538,Worlds Main Event 2023,Victory,36:28,T1,Team Liquid,1,2,12,24,7,2,0,True,https://gol.gg/game/stats/53538/page-game/

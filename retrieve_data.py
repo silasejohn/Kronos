@@ -17,7 +17,7 @@ TOURNAMENT = "tournament-Worlds%20Main%20Event%202023"
 # 'season-S13', 'season-ALL'
 SEASON = "season-ALL"
 # 'True', 'False'
-DEBUG = True
+DEBUG = False
 MAIN_WEBSITE = "https://gol.gg"
 enable_rescrape = True
 
@@ -236,7 +236,7 @@ for player_info in player_list:
             # writer headers to csv file
             headers = ["GamePageID", "Tournament", "GameOutcome", "GameTime", "EgoPlayerTeam", "OppoPlayerTeam",
                        "PlayerKills", "PlayerDeaths", "PlayerAssists", "PlayerCS", "TeamTurrets", "TeamDrakes",
-                       "TeamBarons", "TeamFirstBlood"]
+                       "TeamBarons", "TeamFirstBlood", "GameLink"]
             writer.writerow(headers)
 
             # write match-data columns to csv file

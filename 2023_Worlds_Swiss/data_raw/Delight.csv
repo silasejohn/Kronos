@@ -1,5 +1,5 @@
-champName,gameOutcome,KDA,gameTime,gameDate,matchup,split
-Rakan,Victory,1/2/15,31:56,2023-10-21,G2 Esports vs GEN,Worlds Main Event 2023
-Rakan,Victory,1/2/14,31:41,2023-10-21,G2 Esports vs GEN,Worlds Main Event 2023
-Rakan,Victory,1/2/8,29:41,2023-10-20,GEN vs T1,Worlds Main Event 2023
-Alistar,Victory,0/0/16,22:35,2023-10-19,GEN vs GAM Esports,Worlds Main Event 2023
+GamePageID,Tournament,GameOutcome,GameTime,EgoPlayerTeam,OppoPlayerTeam,PlayerKills,PlayerDeaths,PlayerAssists,PlayerCS,TeamTurrets,TeamDrakes,TeamBarons,TeamFirstBlood,GameLink
+53558,Worlds Main Event 2023,Victory,31:56,Gen.G eSports,G2 Esports,1,2,15,39,9,3,2,False,https://gol.gg/game/stats/53558/page-game/
+53557,Worlds Main Event 2023,Victory,31:41,Gen.G eSports,G2 Esports,1,2,14,30,10,3,1,False,https://gol.gg/game/stats/53557/page-game/
+53550,Worlds Main Event 2023,Victory,29:41,Gen.G eSports,T1,1,2,8,40,9,4,1,False,https://gol.gg/game/stats/53550/page-game/
+53540,Worlds Main Event 2023,Victory,22:35,Gen.G eSports,GAM Esports,0,0,16,32,9,2,1,True,https://gol.gg/game/stats/53540/page-game/
