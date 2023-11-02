@@ -1,41 +1,41 @@
-player_tier,team_name,player_name,player_cost,games_played,player_total_pts,player_standardized_score
-1,Gen.G eSports,Doran,~~~,4,48.36,12.09
-1,Gen.G eSports,Peanut,~~~,4,45.01,11.2525
-1,Gen.G eSports,Chovy,~~~,4,46.37,11.5925
-1,Gen.G eSports,Peyz,~~~,4,47.7,11.925
-1,Gen.G eSports,Delight,~~~,4,40.48,10.12
-2,Bilibili Gaming,Bin,~~~,8,83.89,10.48625
-2,Bilibili Gaming,XUN,~~~,8,67.17,8.39625
-2,Bilibili Gaming,Yagao,~~~,8,66.16,8.27
-2,Bilibili Gaming,Elk,~~~,8,74.59,9.32375
-2,Bilibili Gaming,ON,~~~,8,58.59,7.32375
-3,NRG,Dhokla,~~~,5,57.27,11.454
-3,NRG,Contractz,~~~,5,51.94,10.388
-3,NRG,Palafox,~~~,5,52.77,10.554
-3,NRG,FBI,~~~,5,50.92,10.184000000000001
-3,NRG,IgNar,~~~,5,48.94,9.788
-2,Weibo Gaming,TheShy,~~~,8,81.77,10.22125
-2,Weibo Gaming,WeiWei,~~~,8,68.36,8.545
-2,Weibo Gaming,xiaohu,~~~,8,76.45,9.55625
-2,Weibo Gaming,Light,~~~,8,86.95,10.86875
-2,Weibo Gaming,Crisp,~~~,8,64.9,8.1125
-1,JD Gaming,369,~~~,5,48.61,9.722
-1,JD Gaming,Kanavi,~~~,5,46.25,9.25
-1,JD Gaming,Knight,~~~,5,45.23,9.046
-1,JD Gaming,Ruler,~~~,5,47.57,9.514
-1,JD Gaming,Missing,~~~,5,38.58,7.715999999999999
-2,KT Rolster,Kiin,~~~,8,84.54,10.5675
-2,KT Rolster,Cuzz,~~~,8,70.48,8.81
-2,KT Rolster,Bdd,~~~,8,75.62,9.4525
-2,KT Rolster,Aiming,~~~,8,97.48,12.185
-2,KT Rolster,Lehends,~~~,8,57.19,7.14875
-1,LNG Esports,Zika,~~~,8,75.66,9.4575
-1,LNG Esports,Tarzan,~~~,8,67.67,8.45875
-1,LNG Esports,Scout,~~~,8,72.2,9.025
-1,LNG Esports,GALA,~~~,8,75.74,9.4675
-1,LNG Esports,Hang,~~~,8,54.16,6.77
-2,T1,Zeus,~~~,5,52.82,10.564
-2,T1,Oner,~~~,5,47.52,9.504000000000001
-2,T1,Faker,~~~,5,46.11,9.222
-2,T1,Gumayusi,~~~,5,49.86,9.972
-2,T1,Keria,~~~,5,40.01,8.001999999999999
+player_tier,player_role,team_name,player_name,player_cost,games_played,player_total_pts,player_standardized_score
+1,Top,Gen.G eSports,Doran,205,4,48.36,12.09
+1,Jungle,Gen.G eSports,Peanut,205,4,45.01,11.2525
+1,Mid,Gen.G eSports,Chovy,204,4,46.37,11.5925
+1,ADC,Gen.G eSports,Peyz,207,4,47.7,11.925
+1,Support,Gen.G eSports,Delight,198,4,40.48,10.12
+2,Top,Bilibili Gaming,Bin,204,8,83.89,10.48625
+2,Jungle,Bilibili Gaming,XUN,193,8,67.17,8.39625
+2,Mid,Bilibili Gaming,Yagao,190,8,66.16,8.27
+2,ADC,Bilibili Gaming,Elk,208,8,74.59,9.32375
+2,Support,Bilibili Gaming,ON,188,8,58.59,7.32375
+3,Top,NRG,Dhokla,178,5,57.27,11.454
+3,Jungle,NRG,Contractz,183,5,51.94,10.388
+3,Mid,NRG,Palafox,184,5,52.77,10.554
+3,ADC,NRG,FBI,180,5,50.92,10.184000000000001
+3,Support,NRG,IgNar,175,5,48.94,9.788
+2,Top,Weibo Gaming,TheShy,198,8,81.77,10.22125
+2,Jungle,Weibo Gaming,WeiWei,195,8,68.36,8.545
+2,Mid,Weibo Gaming,xiaohu,201,8,76.45,9.55625
+2,ADC,Weibo Gaming,Light,199,8,86.95,10.86875
+2,Support,Weibo Gaming,Crisp,190,8,64.9,8.1125
+1,Top,JD Gaming,369,206,5,48.61,9.722
+1,Jungle,JD Gaming,Kanavi,205,5,46.25,9.25
+1,Mid,JD Gaming,Knight,207,5,45.23,9.046
+1,ADC,JD Gaming,Ruler,211,5,47.57,9.514
+1,Support,JD Gaming,Missing,201,5,38.58,7.715999999999999
+2,Top,KT Rolster,Kiin,200,8,84.54,10.5675
+2,Jungle,KT Rolster,Cuzz,191,8,70.48,8.81
+2,Mid,KT Rolster,Bdd,197,8,75.62,9.4525
+2,ADC,KT Rolster,Aiming,204,8,97.48,12.185
+2,Support,KT Rolster,Lehends,192,8,57.19,7.14875
+1,Top,LNG Esports,Zika,206,8,75.66,9.4575
+1,Jungle,LNG Esports,Tarzan,198,8,67.67,8.45875
+1,Mid,LNG Esports,Scout,207,8,72.2,9.025
+1,ADC,LNG Esports,GALA,209,8,75.74,9.4675
+1,Support,LNG Esports,Hang,190,8,54.16,6.77
+2,Top,T1,Zeus,202,5,52.82,10.564
+2,Jungle,T1,Oner,194,5,47.52,9.504000000000001
+2,Mid,T1,Faker,197,5,46.11,9.222
+2,ADC,T1,Gumayusi,203,5,49.86,9.972
+2,Support,T1,Keria,196,5,40.01,8.001999999999999

@@ -1,40 +1,40 @@
-1792|Gen.G eSports|Doran|1242|Top
-1792|Gen.G eSports|Peanut|392|Jungle
-1792|Gen.G eSports|Chovy|1629|Mid
-1792|Gen.G eSports|Peyz|4247|ADC
-1792|Gen.G eSports|Delight|3411|Support
-1785|Bilibili Gaming|Bin|2606|Top
-1785|Bilibili Gaming|XUN|3330|Jungle
-1785|Bilibili Gaming|Yagao|1278|Mid
-1785|Bilibili Gaming|Elk|2376|ADC
-1785|Bilibili Gaming|ON|3353|Support
-2096|NRG|Dhokla|1135|Top
-2096|NRG|Contractz|733|Jungle
-2096|NRG|Palafox|1282|Mid
-2096|NRG|FBI|1138|ADC
-2096|NRG|IgNar|463|Support
-1774|Weibo Gaming|TheShy|1075|Top
-1774|Weibo Gaming|WeiWei|2124|Jungle
-1774|Weibo Gaming|xiaohu|347|Mid
-1774|Weibo Gaming|Light|1303|ADC
-1774|Weibo Gaming|Crisp|1169|Support
-1776|JD Gaming|369|1922|Top
-1776|JD Gaming|Kanavi|2360|Jungle
-1776|JD Gaming|Knight|1270|Mid
-1776|JD Gaming|Ruler|685|ADC
-1776|JD Gaming|Missing|1647|Support
-1770|KT Rolster|Kiin|1115|Top
-1770|KT Rolster|Cuzz|983|Jungle
-1770|KT Rolster|Bdd|650|Mid
-1770|KT Rolster|Aiming|1328|ADC
-1770|KT Rolster|Lehends|738|Support
-1786|LNG Esports|Zika|4473|Top
-1786|LNG Esports|Tarzan|1226|Jungle
-1786|LNG Esports|Scout|610|Mid
-1786|LNG Esports|GALA|1931|ADC
-1786|LNG Esports|Hang|2670|Support
-1791|T1|Zeus|3658|Top
-1791|T1|Oner|3741|Jungle
-1791|T1|Faker|48|Mid
-1791|T1|Gumayusi|3247|ADC
-1791|T1|Keria|1258|Support
+1792|Gen.G eSports|Doran|1242|Top|205
+1792|Gen.G eSports|Peanut|392|Jungle|205
+1792|Gen.G eSports|Chovy|1629|Mid|204
+1792|Gen.G eSports|Peyz|4247|ADC|207
+1792|Gen.G eSports|Delight|3411|Support|198
+1785|Bilibili Gaming|Bin|2606|Top|204
+1785|Bilibili Gaming|XUN|3330|Jungle|193
+1785|Bilibili Gaming|Yagao|1278|Mid|190
+1785|Bilibili Gaming|Elk|2376|ADC|208
+1785|Bilibili Gaming|ON|3353|Support|188
+2096|NRG|Dhokla|1135|Top|178
+2096|NRG|Contractz|733|Jungle|183
+2096|NRG|Palafox|1282|Mid|184
+2096|NRG|FBI|1138|ADC|180
+2096|NRG|IgNar|463|Support|175
+1774|Weibo Gaming|TheShy|1075|Top|198
+1774|Weibo Gaming|WeiWei|2124|Jungle|195
+1774|Weibo Gaming|xiaohu|347|Mid|201
+1774|Weibo Gaming|Light|1303|ADC|199
+1774|Weibo Gaming|Crisp|1169|Support|190
+1776|JD Gaming|369|1922|Top|206
+1776|JD Gaming|Kanavi|2360|Jungle|205
+1776|JD Gaming|Knight|1270|Mid|207
+1776|JD Gaming|Ruler|685|ADC|211
+1776|JD Gaming|Missing|1647|Support|201
+1770|KT Rolster|Kiin|1115|Top|200
+1770|KT Rolster|Cuzz|983|Jungle|191
+1770|KT Rolster|Bdd|650|Mid|197
+1770|KT Rolster|Aiming|1328|ADC|204
+1770|KT Rolster|Lehends|738|Support|192
+1786|LNG Esports|Zika|4473|Top|206
+1786|LNG Esports|Tarzan|1226|Jungle|198
+1786|LNG Esports|Scout|610|Mid|207
+1786|LNG Esports|GALA|1931|ADC|209
+1786|LNG Esports|Hang|2670|Support|190
+1791|T1|Zeus|3658|Top|202
+1791|T1|Oner|3741|Jungle|194
+1791|T1|Faker|48|Mid|197
+1791|T1|Gumayusi|3247|ADC|203
+1791|T1|Keria|1258|Support|196
