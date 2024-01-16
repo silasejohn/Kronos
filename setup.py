@@ -72,6 +72,9 @@ def craft_player_csv(initial_df, league, split, position):
     # selecting rows based on condition
     processed_df1 = initial_df.loc[np.logical_and(initial_df['league'] == league, initial_df['position'] == position)]
     processed_df2 = processed_df1.loc[processed_df1['split'] == split]
+    if split == "" and league == "DCup":
+        split = "DCup"
+        league = "LPL"
     output_csv_file_name = f"2024/data_raw/{league}/{split}/{position}.csv"
     write_to_csv(processed_df2, output_csv_file_name)
 
@@ -98,9 +101,18 @@ def write_to_csv(input_df, output_csv, csv_headers=0):
 output_test_csv_file_name = f"testing/output1.csv"
 write_to_csv(relevant_league_data_df, output_test_csv_file_name, csv_headers=relevant_headers)
 
+# create CSVs for LCK Demacia Cup (all positions)
+craft_player_csv(relevant_league_data_df, "DCup", "", "top")
+craft_player_csv(relevant_league_data_df, "DCup", "", "jng")
+craft_player_csv(relevant_league_data_df, "DCup", "", "mid")
+craft_player_csv(relevant_league_data_df, "DCup", "", "bot")
+craft_player_csv(relevant_league_data_df, "DCup", "", "sup")
+
+# create CSVs for LEC Winter Split (all positions)
 craft_player_csv(relevant_league_data_df, "LEC", "Winter", "top")
 craft_player_csv(relevant_league_data_df, "LEC", "Winter", "jng")
 craft_player_csv(relevant_league_data_df, "LEC", "Winter", "mid")
 craft_player_csv(relevant_league_data_df, "LEC", "Winter", "bot")
 craft_player_csv(relevant_league_data_df, "LEC", "Winter", "sup")
+
 
