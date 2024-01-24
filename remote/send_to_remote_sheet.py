@@ -37,6 +37,7 @@ def setup_creds():
 
 def main():
     setup_creds()
+    creds = None
     try:
         service = build('sheets', 'v4', credentials=creds)
 

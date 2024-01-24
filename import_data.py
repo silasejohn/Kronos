@@ -53,6 +53,7 @@ import csv
 #     print(chunk)
 
 league_data_csv = '2024_LOL_Esports_Data.csv'
+pd.set_option('display.max_columns', 500)
 relevant_metadata_headers = ["gameid", "datacompleteness", "league", "year", "split", "playoffs", "date", "game", "gamelength"]
 relevant_player_headers = ["participantid", "position", "playername", "playerid", "teamname", "teamid", "result", "kills", "assists", "deaths", "total cs", "teamkills", "teamdeaths", "cspm", "damageshare", "earnedgoldshare"]
 relevant_team_headers = ["participantid", "teamname", "teamid", "result", "teamkills", "assists", "teamdeaths", "dragons", "opp_dragons", "heralds", "opp_heralds", "barons", "opp_barons", "towers"]
@@ -71,13 +72,16 @@ print(relevant_league_data_df.head())
 def craft_player_csv(initial_df, league, split, position):
     # selecting rows based on condition
     processed_df1 = initial_df.loc[np.logical_and(initial_df['league'] == league, initial_df['position'] == position)]
-    processed_df2 = processed_df1.loc[processed_df1['split'] == split]
+    processed_df1.fillna(-1, inplace=True)
+    processed_df2 = processed_df1.loc[processed_df1['split'] == -1]
+    print(processed_df2)
     if split == "" and league == "DCup":
         split = "DCup"
         league = "LPL"
     output_csv_file_name = f"2024/data_raw/{league}/{split}/{position}.csv"
     write_to_csv(processed_df2, output_csv_file_name)
 
+# shanji - ninjas in pyjamas (199) ... ziaoxu - rare atom (184) ...
 
 def write_to_csv(input_df, output_csv, csv_headers=0):
     with open(output_csv, 'w', newline='') as file:
@@ -102,17 +106,17 @@ output_test_csv_file_name = f"testing/output1.csv"
 write_to_csv(relevant_league_data_df, output_test_csv_file_name, csv_headers=relevant_headers)
 
 # create CSVs for LCK Demacia Cup (all positions)
-craft_player_csv(relevant_league_data_df, "DCup", "", "top")
-craft_player_csv(relevant_league_data_df, "DCup", "", "jng")
-craft_player_csv(relevant_league_data_df, "DCup", "", "mid")
-craft_player_csv(relevant_league_data_df, "DCup", "", "bot")
+# craft_player_csv(relevant_league_data_df, "DCup", "", "top")
+# craft_player_csv(relevant_league_data_df, "DCup", "", "jng")
+# craft_player_csv(relevant_league_data_df, "DCup", "", "mid")
+# craft_player_csv(relevant_league_data_df, "DCup", "", "bot")
 craft_player_csv(relevant_league_data_df, "DCup", "", "sup")
 
 # create CSVs for LEC Winter Split (all positions)
 craft_player_csv(relevant_league_data_df, "LEC", "Winter", "top")
-craft_player_csv(relevant_league_data_df, "LEC", "Winter", "jng")
-craft_player_csv(relevant_league_data_df, "LEC", "Winter", "mid")
-craft_player_csv(relevant_league_data_df, "LEC", "Winter", "bot")
-craft_player_csv(relevant_league_data_df, "LEC", "Winter", "sup")
+# craft_player_csv(relevant_league_data_df, "LEC", "Winter", "jng")
+# craft_player_csv(relevant_league_data_df, "LEC", "Winter", "mid")
+# craft_player_csv(relevant_league_data_df, "LEC", "Winter", "bot")
+# craft_player_csv(relevant_league_data_df, "LEC", "Winter", "sup")
 
 
